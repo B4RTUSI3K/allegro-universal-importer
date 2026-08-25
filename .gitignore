@@ -1,0 +1,30 @@
+# Dane uwierzytelniające i konfiguracja lokalna
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logi
+*.log
+logi/*.log
+
+# System / edytory
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.idea/
+
+# Pliki tymczasowe
+*.tmp
+*.temp
+~$*
